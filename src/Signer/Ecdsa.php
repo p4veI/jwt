@@ -14,7 +14,7 @@ abstract class Ecdsa extends OpenSSL
      */
     private $converter;
 
-    public function __construct(SignatureConverter $converter)
+    final public function __construct(SignatureConverter $converter)
     {
         $this->converter = $converter;
     }

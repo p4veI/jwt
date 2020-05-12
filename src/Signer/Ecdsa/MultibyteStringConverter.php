@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Lcobucci\JWT\Signer\Ecdsa;
 
 use InvalidArgumentException;
+use function var_dump;
 use const STR_PAD_LEFT;
 use function assert;
 use function bin2hex;
